@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>網頁設計作業</title>
+<link href="reset.css" rel="stylesheet" type="text/css">
+<link href="style.css" rel="stylesheet" type="text/css">
+<script src="js/jquery.min.js"></script> 
+<script src="js/parallaxie.min.js"></script> 
+<script src="js/wow.min.js"></script>
+<link rel="stylesheet" href="css/animate.css">
+</head>
+
+<body class="colT">
+<nav>
+  <h3 class="right"><a href="#">我的田野調查</a></h3>
+  <ul>
+    <li><a href="#a01">車站介紹</a></li>
+    <li><a href="#a02">車站特色</a></li>
+    <li><a href="#a03">學程設備</a></li>
+    <li><a href="#a04">學程位置</a></li>
+  </ul>
+</nav>
+<header>
+  <h1 class="wow bounceInDown">捷運之外的繁華<br>
+    汐止火車站</h1>
+  
+</header>
+<main>
+  <article id="a01">
+    <h2>車站介紹</h2>
+    <div class="container1">
+      <div class="left wow slideInLeft"><p>汐止火車站現在是台鐵的二等車站，在臺灣鐵路管理局的分級之中位於特級火車站和28座一級火車站之下，但如果從車流量和通勤人數來看，這裡位居全台14.15位左右，超過了不少的一等站，可以說是台灣非常重要的車站之一。</p><br><p>
+        汐止火車站台共有三層樓，三樓是乘車的地方，設有島式月台二座，第一月台為南下月台(台北、桃園、台中、高雄等)，第二月台為北上月台(基隆、花蓮、台東等)。二樓為大廳與商場所在地，包含車站的驗票閘門、等候區、售票處以及洗手間和商店，在通往東西兩出口的方向則有長長的商店街。</p></div>
+      <div class="right wow slideInRight"></div>
+    </div>
+  </article>
+  <article class="course" id="a02">
+    <h2>車站特色</h2>
+    <p>汐止車站作為台灣鐵路車站中歷史最悠久的車站之一，擁有許多特色</p>
+    <div class="container2">
+      <div class="col01 wow bounceIn">
+        <div class="colT">台鐵便當的販賣台</div>
+      </div>
+      <div class="col02 wow bounceIn" data-wow-delay="0.3s">
+        <div class="colT">汐止茄苳腳臺灣鐵路遺蹟</div>
+      </div>
+      <div class="col03 wow bounceIn" data-wow-delay="0.5s">
+        <div class="colT">代表吉祥物汐寶</div>
+      </div>
+    </div>
+  </article>
+  <article id="a03">
+    <h2>車站照片</h2>
+    <p>從汐止車站前後站看出去有甚麼不同呢</p>
+    <div class="container3">
+      <div class="imgdiv"><img src="assets/pic10.jpg" width="400" height="400" alt=""/></div>
+      <div class="imgdiv"><img src="assets/pic11.jpg" width="400" height="400" alt=""/></div>
+      <div class="imgdiv"><img src="assets/pic12.jpg" width="400" height="400" alt=""/></div>
+      <div class="imgdiv"><img src="assets/pic13.jpg" width="400" height="400" alt=""/></div>
+      <div class="imgdiv"><img src="assets/pic14.jpg" width="400" height="400" alt=""/></div>
+      <div class="imgdiv"><img src="assets/pic15.jpg" width="400" height="400" alt=""/></div>
+    </div>
+  </article>
+  <article id="a04" style="padding-bottom: 0px">
+    <h2>學程位置</h2>
+    <p align="center"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14456.008159123827!2d121.64365553955076!3d25.06792000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x345d5312bd5fc723%3A0x265d7d910255e527!2z5rGQ5q2i6LuK56uZ!5e0!3m2!1szh-TW!2stw!4v1655641629838!5m2!1szh-TW!2stw" width="90%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe></p><br>
+  </article>
+</main>
+<footer> 台文學程&nbsp;&nbsp;&nbsp;黃靖筠 </footer>
+<script>
+$('header').parallaxie({speed: 0.5, offset: -50,});
+</script> 
+<script>
+$('.course').parallaxie({speed: 0.7, offset: -100,});
+</script> 
+<script>
+	new WOW().init();
+</script>
+</body>
+</html>
